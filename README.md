@@ -1,10 +1,10 @@
-# scrollview 【解释:http://www.jianshu.com/p/ba3e216f6b93】
+# scrollview [解释:http://www.jianshu.com/p/ba3e216f6b93]
 三倍宽/高view实现无数张视图的轮播滚动 scrollview复用
 
 通过三倍宽/高实现scrollview的无限复用，什么原理呢？这里是把在view上放三张图，我们需要展示的永远是中间那张view，只是当视图滚动结束时候不断的更换三张view对应数据源（为什么不在滚动的时候切换呢？这个可以自己思考一下）
 效果如下
 
-![轮播滚动](http://upload-images.jianshu.io/upload_images/1488115-df0536b31dc07585.gif?imageMogr2/auto-orient/strip)
+[轮播滚动效果](http://upload-images.jianshu.io/upload_images/1488115-df0536b31dc07585.gif?imageMogr2/auto-orient/strip)
 
 首先创建一个view（reScrollView）和xib
 
