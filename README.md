@@ -4,11 +4,11 @@
 通过三倍宽/高实现scrollview的无限复用，什么原理呢？这里是把在view上放三张图，我们需要展示的永远是中间那张view，只是当视图滚动结束时候不断的更换三张view对应数据源（为什么不在滚动的时候切换呢？这个可以自己思考一下）
 效果如下
 
-[轮播滚动](http://upload-images.jianshu.io/upload_images/1488115-df0536b31dc07585.gif?imageMogr2/auto-orient/strip)
+![轮播滚动](http://upload-images.jianshu.io/upload_images/1488115-df0536b31dc07585.gif?imageMogr2/auto-orient/strip)
 
 首先创建一个view（reScrollView）和xib
 
-[xib约束](http://upload-images.jianshu.io/upload_images/1488115-0f5e669b10a6e0ff.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![xib约束](http://upload-images.jianshu.io/upload_images/1488115-0f5e669b10a6e0ff.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 ```
